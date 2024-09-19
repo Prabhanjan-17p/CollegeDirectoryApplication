@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+body{
+  min-height: 100vh;
+  background: black;
+}
+.wrapper{
+
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  padding: 34px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  margin-left: 35%;
+  margin-top: 30px;
+}
+.wrapper h2{
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+.wrapper h2::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 28px;
+  border-radius: 12px;
+  background: #4070f4;
+}
+.wrapper form{
+  margin-top: 30px;
+}
+.wrapper form .input-box{
+  height: 52px;
+  margin: 18px 0;
+}
+form .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.input-box input:focus,
+.input-box input:valid{
+  border-color: #4070f4;
+}
+form .policy{
+  display: flex;
+  align-items: center;
+}
+form h3{
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.input-box.button input{
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: #4070f4;
+  cursor: pointer;
+}
+.input-box.button input:hover{
+  background: #0e4bf1;
+}
+form .text h3{
+ color: #333;
+ width: 100%;
+ text-align: center;
+}
+form .text h3 a{
+  color: #4070f4;
+  text-decoration: none;
+}
+form .text h3 a:hover{
+  text-decoration: underline;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  max-width: 100vw;
+  justify-content: space-around;
+  height: 60px;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+
+div ul li {
+  font-size: 16px;
+  color: aliceblue;
+}
+
+.name {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.main1 {
+  height: 80vh;
+  width: 50%;
+}
+
+.main1 img {
+  width: 20vw;
+  border-radius: 50%;
+}
+
+.main {
+  display: flex;
+}
+
+.photoMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.latterMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navVideo {
+  width: 90px;
+}
+.logo>a{
+font-size: 22px;
+font-style: bold;
+color: white;
+}
+
+.logoNav {
+  display: flex;
+  align-items: center;
+}
+
+.morelili {
+  height: 40px;
+  width: 40px;
+  transition: all 0.5s ease-out;
+}
+
+.moreli {
+  transition: all 0.5s ease-out;
+  visibility: hidden;
+}
+
+.autotype {
+  color: blue;
+}
+
+.liHover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.liHover a{
+  color: white;
+  font-size: 16px;
+}
+
+/* .liHover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: aliceblue;
+  transform: scaleX(0);
+  transition: 0.5s;
+} */
+
+/* .lione,
+.litwo,
+.lithree,
+.lifour,
+li:hover::after {
+  transform: scaleX(1);
+  cursor: pointer;
+} */
+
+/* li:hover::after {
+  background-color: aqua;
+  cursor: pointer;
+  list-style: 2px rgb(248, 248, 248);
+  list-style: none;
+  transform: scaleX(1);
+} */
+
+/* li:hover::after .liHover {
+  background-color: aqua;
+  cursor: pointer;
+  list-style: 2px rgb(248, 248, 248);
+  list-style: none;
+  transform: scaleX(1);
+ 
+} */
+.liHover:hover{
+  color: aqua;
+}
+
+/* li:hover,
+ul li.active {
+  color: aqua;
+} */
+
+/* heading style */
+.h11 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.h11 span {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.3;
+}
+
+.h11 em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.one {
+  margin-top: 40px;
+  position: relative;
+}
+
+.one h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.one h1:before {
+  width: 28px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  margin-left: -14px;
+  background-color: #b80000;
+}
+
+.one h1:after {
+  width: 100px;
+  height: 1px;
+  display: block;
+  content: "";
+  position: relative;
+  margin-top: 25px;
+  left: 50%;
+  margin-left: -50px;
+  background-color: #b80000;
+}
+.latterMain h1{
+  color: white;
+}
+.s2{
+  height: 95vh;
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+}
+/* hide scrollbar */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#OPTres{
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+.drop-down li{
+  list-style: none;
+}
+.drop-down{
+  visibility: hidden;
+  /* display: none; */
+  opacity: 0;
+  transition: all 0.5s;
+
+}
+
+.litwo:hover > .drop-down{
+  visibility: visible;
+  opacity: 1;
+  color: white;
+  transition: all 0.5s;
+  /* background-color: white; */
+}
+/* .litwo ul li:hover > .drop-down{
+  visibility: visible;
+ 
+  opacity: 1;
+  color: white;
+  background-color: white;
+} */
+.litwo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#dropli{
+  margin-top: 47px;
+}

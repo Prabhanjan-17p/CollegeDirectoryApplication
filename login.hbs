@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login And Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    {{!-- it is useed as universial code means partials code --}}
+    {{>navbar}}
+
+  <div class="wrapper">
+        <h2>Login</h2>
+        <form action="/login" method="POST">
+            <div class="input-box">
+                <input type="email" placeholder="Enter your email"name="email" required>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Enter your password" name="password" required>
+            </div>
+            <div class="policy">
+                <input type="checkbox">
+                <h3>I accept all terms & condition</h3>
+            </div>
+            <div class="input-box button">
+                <input type="Submit" value="Login Now">
+            </div>
+            <div class="text">
+                <h3>If you have no account? <a href="/register">Register now</a></h3>
+            </div>
+        </form>
+    </div> 
+</body>
+</html>
